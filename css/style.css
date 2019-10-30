@@ -161,7 +161,7 @@ header .nav ul li:hover::after {
 
 .btn:hover {
     background: #008ed6;
-    border: none;
+    border: solid 1px #008ed6;
 }
 
 
@@ -186,7 +186,6 @@ header .nav ul li:hover::after {
     display: block;
     position: absolute;
     left: 48%;
-    right: 48%;
     width: 4%;
     bottom: -35px;
     height: 2px;
@@ -376,7 +375,6 @@ header .nav ul li:hover::after {
     display: block;
     position: absolute;
     left: 48%;
-    right: 48%;
     width: 4%;
     bottom: -35px;
     height: 2px;
@@ -385,7 +383,7 @@ header .nav ul li:hover::after {
 }
 
 
-.comment-block h2:before{
+.pricing-block h2:before{
     content: "";
     display: block;
     position: absolute;
@@ -404,7 +402,7 @@ header .nav ul li:hover::after {
     padding: 30px 0 28px 0;
     border: solid 1px #e0e0e0;
     margin-bottom: 60px;
-    margin-left: 10px;
+    margin-left: 13px;
     text-align: center;
     float: left;
 }
@@ -423,6 +421,7 @@ header .nav ul li:hover::after {
     font-size: 60px;
     color: #1a1a1a;
 }
+
 
 .plan-card h3:after {
     content: "";
@@ -457,23 +456,126 @@ header .nav ul li:hover::after {
     color: #008ed6;
 }
 
-.plan-card .btn:hover {
+.plan-card:hover .btn {
     color: white;
+    background-color: #008ed6;
+    border-color: #008ed6;
 }
 
-.plan-card h4:hover {
+.plan-card:hover h4{
     color: #008ed6;
 }
 
-.plan-card h3:hover {
+.plan-card:hover h3 {
     background-color: #008ed6;
     color: white;
 }
 
+.contact_us {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding: 60px 100px 10px 100px;
+}
+
+.contact_us h3 {
+    color: #008ed6;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact_us h2 {
+    position: relative;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 72px;
+}
+
+.contact_us h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 48%;
+    width: 4%;
+    bottom: -35px;
+    height: 2px;
+    z-index: 1;
+    background-color: #008ed6;
+}
 
 
+.contact_us h2:before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    margin-left: -1px;
+    bottom: -35px;
+    height: 2px;
+    background-color: white;
+    width: 2px;
+    z-index: 2;
+}
 
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
 
+.contact_us ul li {
+    list-style: none;
+    color: #999999;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact_us ul {
+    margin-bottom: 75px;
+}
+
+.contact_us ul li i {
+    color: #008ed6;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact_us form {
+    margin: 0 auto;
+    max-width: 770px;
+    background-color: #15141a;
+    box-sizing: border-box;
+    padding: 60px 85px 40px 65px;
+}
+
+.contact_us form input {
+    width: 300px;
+    height: 50px;
+    background-color: #15141a;
+    border: solid 1px #4b494d;
+    margin: 0 15px 20px 0;
+    box-sizing: border-box;
+    padding: 19px 0 19px 15px;
+}
+
+.contact_us form div {
+    float: left;
+}
+
+.contact_us form textarea {
+    resize: none;
+    box-sizing: border-box;
+    padding: 20px 0 0 20px;
+    background-color: #15141a;
+    border: solid 1px #4b494d;
+}
+
+form:after{
+    content: "";
+    clear: both;
+    display: block;
+}
 
 
 
@@ -486,10 +588,13 @@ footer {
     padding: 54px 0 45px 0;
 }
 
-footer i {
+footer a {
     color: #444348;
-    margin:0 16px 32px 16px;
+    margin:0 16px 50px 16px;
+}
 
+footer i {
+    margin-bottom: 30px;
 }
 
 footer p {

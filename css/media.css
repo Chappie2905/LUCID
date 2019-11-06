@@ -29,4 +29,88 @@
     .nav ul li {
         margin-bottom: 15px;
     }
+    .banner_information {
+        display: flex;
+        justify-content: space-between;
+    }
+    .left {
+        max-width: 50%;
+    }
+    .banner_information h3 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .banner_information h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .banner_information p {
+        font-size: 14px;
+    }
+    .right {
+        float: none;
+    }
+    .right img {
+        width: 50%;
+    }
+    .features h2 {
+        font-size: 28px;
+    }
+    .features-list {
+        display: flex;
+        justify-content: space-around;
+    }
+    .features-block {
+        float: none;
+        margin-left: 10px;
+    }
+    .features-block p {
+        font-size: 15px;
+    }
+    .info_block_1 img {
+        width: 50%;
+    }
+    .info_block_2 img {
+        width: 50%;
+    }
+    .device-info {
+        max-width: 50%;
+        margin-left: 0;
+    }
+    .device-info h2 {
+        font-size: 28px;
+    }
+    .device-info p {
+        font-size: 14px;
+    }
+    .rewiew h2 {
+        font-size: 28px;
+    }
+    .rewiew p {
+        font-size: 18px;
+    }
+    .position p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .comment {
+        margin-bottom: 70px;
+    }
+    .pricing-block h2 {
+        font-size: 28px;
+    }
+    .plan-card h4 {
+        font-size: 20px;
+    }
+    .plan-card h3 {
+        font-size: 25px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .plan-card {
+        float: none;
+    }
 }

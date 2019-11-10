@@ -402,15 +402,18 @@ header .nav ul li:hover::after {
 }
 
 .comment {
-    max-width: 555px;
-    float: left;
-    margin-bottom: 130px;
+    max-width: 800px;
+    margin: 0 auto 130px auto;
 }
 
 .owl-carousel p {
     font-size: 24px;
     color: white;
     margin-bottom: 30px;
+}
+
+.person {
+    display: flex;
 }
 
 .owl-carousel .client{
@@ -420,10 +423,6 @@ header .nav ul li:hover::after {
     background-color: grey;
     border-radius: 50%;
     overflow: hidden;
-}
-
-.person {
-    display:flex;
 }
 
 .owl-carousel.client img{
@@ -716,15 +715,6 @@ form:after{
     clear: both;
     display: block;
 }
-
-#map {
-    position: relative;
-    width: 100%;
-    height: 370px;
-}
-
-
-
 
 footer {
     background-color: #15141a;

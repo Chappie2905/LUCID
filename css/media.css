@@ -1,6 +1,6 @@
-@media screen and (max-width: 768px) {
-   .container {
-        max-width: 720px;
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 960px;
     }
     .nav {
         display: none;
@@ -41,7 +41,7 @@
         margin-bottom: 20px;
     }
     .banner_information h1 {
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 25px;
     }
     .banner_information p {
@@ -103,7 +103,7 @@
         font-size: 20px;
     }
     .plan-card h3 {
-        font-size: 25px;
+        font-size: 50px;
     }
     .cards{
         display: flex;
@@ -111,6 +111,143 @@
         margin: 0 auto;
     }
     .plan-card {
+        max-width: 400px;
         float: none;
+    }
+    .contact_us form div {
+        float: none;
+    }
+    .contact_us form input {
+        width: 100%;
+    }
+    .contact_us form textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+        max-width: 720px;
+    }
+    .nav {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+        color: white;
+        font-size: 20px;
+        float: right;
+    }
+    .nav.is-active {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        display: block;
+        float: none;
+        background-color: #1b1b1b;
+        padding-top: 5px;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav ul li {
+        margin-bottom: 15px;
+    }
+    .banner_information {
+        display: flex;
+        justify-content: space-between;
+    }
+    .left {
+        max-width: 50%;
+    }
+    .banner_information h3 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .banner_information h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .banner_information p {
+        font-size: 14px;
+    }
+    .right {
+        float: none;
+    }
+    .right img {
+        width: 50%;
+    }
+    .features h2 {
+        font-size: 28px;
+    }
+    .features-list {
+        display: flex;
+        justify-content: space-around;
+    }
+    .features-block {
+        float: none;
+        margin-left: 10px;
+    }
+    .features-block p {
+        font-size: 15px;
+    }
+    .info_block_1 img {
+        width: 50%;
+    }
+    .info_block_2 img {
+        width: 50%;
+    }
+    .device-info {
+        max-width: 50%;
+        margin-left: 0;
+    }
+    .device-info h2 {
+        font-size: 28px;
+    }
+    .device-info p {
+        font-size: 14px;
+    }
+    .rewiew h2 {
+        font-size: 28px;
+    }
+    .rewiew p {
+        font-size: 18px;
+    }
+    .position p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .comment {
+        margin-bottom: 70px;
+    }
+    .pricing-block h2 {
+        font-size: 28px;
+    }
+    .plan-card h4 {
+        font-size: 20px;
+    }
+    .plan-card h3 {
+        font-size: 50px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .plan-card {
+        max-width: 400px;
+        float: none;
+    }
+    .contact_us form div {
+        float: none;
+    }
+    .contact_us form input {
+        width: 100%;
+    }
+    .contact_us form textarea {
+        width: 100%;
     }
 }
